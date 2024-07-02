@@ -1,0 +1,6 @@
+source leaprc.protein.ff19SB
+source leaprc.water.tip3p
+loadAmberParams frcmod.ions234lm_1264_tip3p
+nano12 = loadpdb nano12_clean.pdb
+saveamberparm nano12 nano12.prmtop nano12.inpcrd
+quit

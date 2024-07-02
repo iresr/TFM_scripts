@@ -1,0 +1,10 @@
+Energy minimization without restraints
+&cntrl
+imin=1,
+maxcyc=500,
+ncyc=250,
+ntb=0,
+igb=0,
+cut=14,
+ntpr=5,
+/

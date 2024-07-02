@@ -1,0 +1,13 @@
+Energy minimization with position restraints on receptor and peptide atoms
+&cntrl
+imin=1,
+maxcyc=500,
+ntmin=2,
+ntb=0,
+igb=0,
+cut=14,
+ntpr=5,
+ntr=1,
+restraint_wt=100.0,
+restraintmask=':1-327',
+/

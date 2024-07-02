@@ -1,0 +1,13 @@
+Energy minimization with position restraints on all residues
+&cntrl
+ imin=1,
+ maxcyc=500,
+ ntmin=2,
+ ntb=0,
+ igb=0,
+ cut=14,
+ ntpr=5,
+ ntr=1,
+ restraint_wt=100.0,
+ restraintmask=':27-263,297-533,567-803,837-1073,1107-1343,1377-1613,1648-1884,1918-2154,2188-2424,2458-2694,2728-2964,2998-3234'
+/

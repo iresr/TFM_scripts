@@ -1,0 +1,10 @@
+Energy minimization with position restraints on receptor, peptide, crystallographic waters and lipids
+&cntrl
+imin=1, 
+maxcyc=2000, 
+ntmin=2, 
+ntpr=5, 
+ntr=1, 
+restraint_wt=100.0, 
+restraintmask=':1-1215,1317-1320',
+/

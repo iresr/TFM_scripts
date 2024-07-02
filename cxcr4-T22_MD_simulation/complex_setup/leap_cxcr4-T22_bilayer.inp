@@ -1,0 +1,7 @@
+source leaprc.protein.ff19SB
+source leaprc.lipid21
+source leaprc.water.tip3p
+cxcr4-T22_bilayer = loadpdb bilayer_emin_2_cxcr4-T22_clean.pdb
+set cxcr4-T22_bilayer box {103.23743715469764 103.23743715469764 111.42}
+saveamberparm cxcr4-T22_bilayer cxcr4-T22_bilayer.prmtop cxcr4-T22_bilayer.inpcrd
+quit

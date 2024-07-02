@@ -1,0 +1,5 @@
+source leaprc.protein.ff19SB
+source leaprc.water.tip3p
+cxcr4-T22 = loadpdb cxcr4-T22_modelH_clean.pdb
+saveamberparm cxcr4-T22 cxcr4-T22.prmtop cxcr4-T22.inpcrd
+quit
